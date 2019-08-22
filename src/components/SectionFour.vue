@@ -32,11 +32,11 @@
 <style lang="scss">
 .the-titlew-one{
   width: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 .the-titlew-two{
 width: 400px;
-margin-bottom: 20px;
-margin-top:15px;
+margin-bottom: 20px !important;
+margin-top:15px !important;
 }
 </style>
