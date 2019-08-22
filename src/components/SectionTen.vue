@@ -1,10 +1,10 @@
 <template>
   <div class="hero is-black">
     <div class="hero-body">
-      <img src="../assets/zaqueo-presidente01.png" class="image is-centered is-final-logo-uwu" alt="">
+      <img src="../assets/zaqueo-presidente01.png" class="image is-final-logo-uwu" alt="">
             <p class="has-text-centered is-font-two has-text-white is-size-7 is-uppercase" style="opacity:0.2;">IF EVERYTHING GOES TO HELL.. DONT @ ME. OK?</p>
 
-      <a href="https://twitter.com/voteZaqueo"><img src="../assets/vote-now.png" class="image is-centered vote-now" alt=""></a>
+      <a href="https://twitter.com/voteZaqueo"><img src="../assets/vote-now.png" class="image vote-now" alt=""></a>
     </div>
   </div>
 </template>
