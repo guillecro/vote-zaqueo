@@ -1,0 +1,73 @@
+@import "~bulma/sass/utilities/_all";
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+
+$body-size: 16px;
+$family-primary: 'Orbitron', $family-sans-serif;
+$family-title: 'Bungee', $family-sans-serif;
+$family-subtitle: 'Russo One',
+$family-sans-serif;
+
+// Colors
+// $primary: hsl(197, 24%, 57%);
+// $primary-invert: findColorInvert($primary);
+// $twitter: #4099FF;
+// $twitter-invert: findColorInvert($twitter);
+
+$primary: #f89f1b;
+$primary-invert: findColorInvert($primary);
+// $primary: #e29735;
+// $primary: #181d27;
+$secondary: #b41f24;
+$secondary-invert: findColorInvert($secondary);
+$crema: #fff8d5;
+$crema-invert: findColorInvert($crema);
+$dark: #181d27;
+$dark-invert: findColorInvert($dark);
+$success: #13ae4a;
+$text: $black;
+$danger: rgb(243, 62, 62);
+// $twitter: #4099FF;
+// $twitter-invert: findColorInvert($twitter);
+
+// Setup $colors to use as bulma classes (e.g. 'is-twittser')
+$colors: ("white": ($white, $black),
+"black": ($black, $white),
+"light": ($light, $light-invert),
+"dark": ($dark, $dark-invert),
+"primary": ($primary, $primary-invert),
+"info": ($info, $info-invert),
+"success": ($success, $success-invert),
+"warning": ($warning, $warning-invert),
+"link": ($link, $link-invert),
+"danger": ($danger, $danger-invert),
+"secondary": ($secondary, $secondary-invert),
+"crema": ($crema, $crema-invert));
+
+// Links
+// $link: $primary;
+// $link-invert: $primary-invert;
+// $link-focus-border: $primary;
+
+// Navbar
+// $navbar-height: 3.5rem;
+// $navbar-item-img-max-height: 2.3rem;
+// $navbar-tab-active-border-bottom-width: 0px;
+// $navbar-background-color: $white;
+// $navbar-item-color: $white;
+// $navbar-item-hover-color: $white;
+// $navbar-item-hover-background-color: transparent;
+
+// $title-color: #000;
+// $subtitle-color: rgb(236, 236, 236);
+
+// Input
+// $input-shadow: none;
+// $input-focus-box-shadow-size: none;
+
+// FORM
+// $label-color: $black;
+// $card-color: $dark;

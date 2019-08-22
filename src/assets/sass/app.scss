@@ -1,0 +1,51 @@
+// Import Bulma's core
+@import "./variables";
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+@import "~animate.css/animate.css";
+
+// All the styles from vue-mapbox
+
+@mixin font-weight($weight) {
+  font-weight: $weight !important;
+}
+
+* {
+  font-weight: 500;
+}
+
+.title{
+  font-family: 'Bungee';
+  font-weight: 400
+}
+.subtitle{
+  font-family: 'Russo One';
+  color: #FFF;
+}
+
+.is-font-one{
+  font-family: 'Bungee';
+}
+.is-font-two{
+  font-family: 'Russo One';
+}
+
+.has-color-crema{
+  color: $crema;
+}
+.has-color-secondary{
+  color: $secondary !important;
+}
+
+
+@for $i from 1 through 9 {
+  .is-#{100 * $i} {
+    @include font-weight(100 * $i, ) 
+  }
+}
+
+.is-centered {
+  margin: 0 auto;
+}
