@@ -2,7 +2,7 @@
   <div id="app">
     <section-one></section-one>
     <section-two></section-two>
-    <img src="./assets/bannerhorizontal.png" class="image" alt="">
+    <img src="./assets/bannerhorizontal.png" class="image" style="width:100%;" alt="">
     <section-three></section-three>
     <section-four></section-four>
     <section-five></section-five>
